@@ -1,0 +1,193 @@
+
+> @rtvision/types@2.3.0-beta.0 dev /home/kalvens/rtvision-app/mono/packages/types
+> pnpm base-build --sourcemap --watch --dts
+
+
+> @rtvision/types@2.3.0-beta.0 base-build /home/kalvens/rtvision-app/mono/packages/types
+> tsup src/* --config node_modules/@rtvision/configs/dist/tsup-config/config.js "--sourcemap" "--watch" "--dts"
+
+[34mCLI[39m Building entry: src/api/CapitalImprovementPlan.ts, src/api/Core.ts, src/api/OneOffice.ts, src/api/Options.ts, src/api/RightOfWay.ts, src/api/index.ts, src/index.ts, src/ui/Table.ts, src/ui/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.build.json
+[34mCLI[39m tsup v6.7.0
+[34mCLI[39m Using tsup config: /home/kalvens/rtvision-app/mono/packages/types/node_modules/@rtvision/configs/dist/tsup-config/config.js
+[34mCLI[39m Running in watch mode
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist/ui/index.js                       [22m[32m613.00 B[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js     [22m[32m50.00 B[39m
+[32mESM[39m [1mdist/api/Core.js                       [22m[32m2.71 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js                  [22m[32m616.00 B[39m
+[32mESM[39m [1mdist/api/Options.js                    [22m[32m338.00 B[39m
+[32mESM[39m [1mdist/api/RightOfWay.js                 [22m[32m38.00 B[39m
+[32mESM[39m [1mdist/api/index.js                      [22m[32m1005.00 B[39m
+[32mESM[39m [1mdist/index.js                          [22m[32m1.49 KB[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js                 [22m[32m5.03 KB[39m
+[32mESM[39m [1mdist/ui/Table.js                       [22m[32m33.00 B[39m
+[32mESM[39m [1mdist/ui/index.js.map                   [22m[32m13.68 KB[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/Core.js.map                   [22m[32m9.82 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js.map              [22m[32m35.48 KB[39m
+[32mESM[39m [1mdist/api/Options.js.map                [22m[32m3.46 KB[39m
+[32mESM[39m [1mdist/api/RightOfWay.js.map             [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/index.js.map                  [22m[32m6.49 KB[39m
+[32mESM[39m [1mdist/index.js.map                      [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js.map             [22m[32m15.44 KB[39m
+[32mESM[39m [1mdist/ui/Table.js.map                   [22m[32m71.00 B[39m
+[32mESM[39m ⚡️ Build success in 83ms
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs     [22m[32m864.00 B[39m
+[32mCJS[39m [1mdist/api/Core.cjs                       [22m[32m3.75 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs                  [22m[32m1.78 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs                    [22m[32m1.50 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs                 [22m[32m816.00 B[39m
+[32mCJS[39m [1mdist/api/index.cjs                      [22m[32m2.33 KB[39m
+[32mCJS[39m [1mdist/index.cjs                          [22m[32m7.51 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs                       [22m[32m795.00 B[39m
+[32mCJS[39m [1mdist/ui/index.cjs                       [22m[32m1.73 KB[39m
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs.map [22m[32m1.72 KB[39m
+[32mCJS[39m [1mdist/api/Core.cjs.map                   [22m[32m9.87 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs.map              [22m[32m35.54 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs.map                [22m[32m15.94 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs.map             [22m[32m2.16 KB[39m
+[32mCJS[39m [1mdist/api/index.cjs.map                  [22m[32m18.99 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map                      [22m[32m15.64 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs.map                   [22m[32m228.00 B[39m
+[32mCJS[39m [1mdist/ui/index.cjs.map                   [22m[32m13.74 KB[39m
+[32mCJS[39m ⚡️ Build success in 83ms
+[34mCLI[39m Watching for changes in "."
+[34mCLI[39m Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 16490ms
+[34mCLI[39m Change detected: change src/api/CapitalImprovementPlan.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist/ui/index.js                       [22m[32m613.00 B[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js     [22m[32m50.00 B[39m
+[32mESM[39m [1mdist/api/Core.js                       [22m[32m2.71 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js                  [22m[32m616.00 B[39m
+[32mESM[39m [1mdist/api/Options.js                    [22m[32m338.00 B[39m
+[32mESM[39m [1mdist/api/RightOfWay.js                 [22m[32m38.00 B[39m
+[32mESM[39m [1mdist/api/index.js                      [22m[32m1005.00 B[39m
+[32mESM[39m [1mdist/index.js                          [22m[32m1.49 KB[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js                 [22m[32m5.03 KB[39m
+[32mESM[39m [1mdist/ui/Table.js                       [22m[32m33.00 B[39m
+[32mESM[39m [1mdist/ui/index.js.map                   [22m[32m13.68 KB[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/Core.js.map                   [22m[32m9.82 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js.map              [22m[32m35.48 KB[39m
+[32mESM[39m [1mdist/api/Options.js.map                [22m[32m3.46 KB[39m
+[32mESM[39m [1mdist/api/RightOfWay.js.map             [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/index.js.map                      [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js.map             [22m[32m15.44 KB[39m
+[32mESM[39m [1mdist/api/index.js.map                  [22m[32m6.49 KB[39m
+[32mESM[39m [1mdist/ui/Table.js.map                   [22m[32m71.00 B[39m
+[32mESM[39m ⚡️ Build success in 110ms
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs     [22m[32m864.00 B[39m
+[32mCJS[39m [1mdist/api/Core.cjs                       [22m[32m3.75 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs                  [22m[32m1.78 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs                    [22m[32m1.50 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs                 [22m[32m816.00 B[39m
+[32mCJS[39m [1mdist/api/index.cjs                      [22m[32m2.33 KB[39m
+[32mCJS[39m [1mdist/index.cjs                          [22m[32m7.51 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs                       [22m[32m795.00 B[39m
+[32mCJS[39m [1mdist/ui/index.cjs                       [22m[32m1.73 KB[39m
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs.map [22m[32m1.14 KB[39m
+[32mCJS[39m [1mdist/api/Core.cjs.map                   [22m[32m9.87 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs.map              [22m[32m35.54 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs.map                [22m[32m15.94 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs.map             [22m[32m2.16 KB[39m
+[32mCJS[39m [1mdist/api/index.cjs.map                  [22m[32m18.99 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map                      [22m[32m15.64 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs.map                   [22m[32m228.00 B[39m
+[32mCJS[39m [1mdist/ui/index.cjs.map                   [22m[32m13.74 KB[39m
+[32mCJS[39m ⚡️ Build success in 110ms
+[32mDTS[39m ⚡️ Build success in 4355ms
+[34mCLI[39m Change detected: change package.json
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs     [22m[32m864.00 B[39m
+[32mCJS[39m [1mdist/api/Core.cjs                       [22m[32m3.75 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs                  [22m[32m1.78 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs                    [22m[32m1.50 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs                 [22m[32m816.00 B[39m
+[32mCJS[39m [1mdist/api/index.cjs                      [22m[32m2.33 KB[39m
+[32mCJS[39m [1mdist/index.cjs                          [22m[32m7.51 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs                       [22m[32m795.00 B[39m
+[32mCJS[39m [1mdist/ui/index.cjs                       [22m[32m1.73 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs.map              [22m[32m35.54 KB[39m
+[32mCJS[39m [1mdist/api/Core.cjs.map                   [22m[32m9.87 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs.map                [22m[32m15.94 KB[39m
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs.map [22m[32m1.14 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs.map             [22m[32m2.16 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs.map                   [22m[32m228.00 B[39m
+[32mCJS[39m [1mdist/index.cjs.map                      [22m[32m15.64 KB[39m
+[32mCJS[39m [1mdist/ui/index.cjs.map                   [22m[32m13.74 KB[39m
+[32mCJS[39m [1mdist/api/index.cjs.map                  [22m[32m18.99 KB[39m
+[32mCJS[39m ⚡️ Build success in 113ms
+[32mESM[39m [1mdist/ui/index.js                       [22m[32m613.00 B[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js     [22m[32m50.00 B[39m
+[32mESM[39m [1mdist/api/Core.js                       [22m[32m2.71 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js                  [22m[32m616.00 B[39m
+[32mESM[39m [1mdist/api/Options.js                    [22m[32m338.00 B[39m
+[32mESM[39m [1mdist/api/RightOfWay.js                 [22m[32m38.00 B[39m
+[32mESM[39m [1mdist/api/index.js                      [22m[32m1005.00 B[39m
+[32mESM[39m [1mdist/index.js                          [22m[32m1.49 KB[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js                 [22m[32m5.03 KB[39m
+[32mESM[39m [1mdist/ui/Table.js                       [22m[32m33.00 B[39m
+[32mESM[39m [1mdist/ui/index.js.map                   [22m[32m13.68 KB[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/Core.js.map                   [22m[32m9.82 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js.map              [22m[32m35.48 KB[39m
+[32mESM[39m [1mdist/api/Options.js.map                [22m[32m3.46 KB[39m
+[32mESM[39m [1mdist/api/RightOfWay.js.map             [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/index.js.map                  [22m[32m6.49 KB[39m
+[32mESM[39m [1mdist/index.js.map                      [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js.map             [22m[32m15.44 KB[39m
+[32mESM[39m [1mdist/ui/Table.js.map                   [22m[32m71.00 B[39m
+[32mESM[39m ⚡️ Build success in 243ms
+[34mCLI[39m Change detected: change package.json
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist/api/OneOffice.js                  [22m[32m616.00 B[39m
+[32mESM[39m [1mdist/api/index.js                      [22m[32m1005.00 B[39m
+[32mESM[39m [1mdist/api/Options.js                    [22m[32m338.00 B[39m
+[32mESM[39m [1mdist/api/RightOfWay.js                 [22m[32m38.00 B[39m
+[32mESM[39m [1mdist/ui/index.js                       [22m[32m613.00 B[39m
+[32mESM[39m [1mdist/index.js                          [22m[32m1.49 KB[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js                 [22m[32m5.03 KB[39m
+[32mESM[39m [1mdist/api/Core.js                       [22m[32m2.71 KB[39m
+[32mESM[39m [1mdist/ui/Table.js                       [22m[32m33.00 B[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js     [22m[32m50.00 B[39m
+[32mESM[39m [1mdist/api/Options.js.map                [22m[32m3.46 KB[39m
+[32mESM[39m [1mdist/api/index.js.map                  [22m[32m6.49 KB[39m
+[32mESM[39m [1mdist/api/RightOfWay.js.map             [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/OneOffice.js.map              [22m[32m35.48 KB[39m
+[32mESM[39m [1mdist/index.js.map                      [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/ui/index.js.map                   [22m[32m13.68 KB[39m
+[32mESM[39m [1mdist/chunk-IZBUFPWK.js.map             [22m[32m15.44 KB[39m
+[32mESM[39m [1mdist/api/Core.js.map                   [22m[32m9.82 KB[39m
+[32mESM[39m [1mdist/ui/Table.js.map                   [22m[32m71.00 B[39m
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js.map [22m[32m71.00 B[39m
+[32mESM[39m ⚡️ Build success in 200ms
+[32mCJS[39m [1mdist/api/Core.cjs                       [22m[32m3.75 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs                  [22m[32m1.78 KB[39m
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs     [22m[32m864.00 B[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs                 [22m[32m816.00 B[39m
+[32mCJS[39m [1mdist/api/Options.cjs                    [22m[32m1.50 KB[39m
+[32mCJS[39m [1mdist/ui/index.cjs                       [22m[32m1.73 KB[39m
+[32mCJS[39m [1mdist/api/index.cjs                      [22m[32m2.33 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs                       [22m[32m795.00 B[39m
+[32mCJS[39m [1mdist/index.cjs                          [22m[32m7.51 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs.map             [22m[32m2.16 KB[39m
+[32mCJS[39m [1mdist/api/Core.cjs.map                   [22m[32m9.87 KB[39m
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs.map [22m[32m1.14 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs.map              [22m[32m35.54 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs.map                [22m[32m15.94 KB[39m
+[32mCJS[39m [1mdist/ui/index.cjs.map                   [22m[32m13.74 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map                      [22m[32m15.64 KB[39m
+[32mCJS[39m [1mdist/api/index.cjs.map                  [22m[32m18.99 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs.map                   [22m[32m228.00 B[39m
+[32mCJS[39m ⚡️ Build success in 211ms
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m

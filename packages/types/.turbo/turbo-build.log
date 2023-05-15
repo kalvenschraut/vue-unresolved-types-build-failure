@@ -1,0 +1,49 @@
+
+> @rtvision/types@2.4.0-alpha.0 build /home/kalvens/rtvision-app/mono/packages/types
+> pnpm base-build --dts --clean
+
+
+> @rtvision/types@2.4.0-alpha.0 base-build /home/kalvens/rtvision-app/mono/packages/types
+> tsup src/* --config node_modules/@rtvision/configs/dist/tsup-config/config.js "--dts" "--clean"
+
+[34mCLI[39m Building entry: src/api/CapitalImprovementPlan.ts, src/api/Core.ts, src/api/OneOffice.ts, src/api/Options.ts, src/api/RightOfWay.ts, src/api/index.ts, src/index.ts, src/ui/Table.ts, src/ui/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.build.json
+[34mCLI[39m tsup v6.7.0
+[34mCLI[39m Using tsup config: /home/kalvens/rtvision-app/mono/packages/types/node_modules/@rtvision/configs/dist/tsup-config/config.js
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/api/CapitalImprovementPlan.cjs [22m[32m813.00 B[39m
+[32mCJS[39m [1mdist/api/Core.cjs                   [22m[32m3.71 KB[39m
+[32mCJS[39m [1mdist/api/OneOffice.cjs              [22m[32m1.75 KB[39m
+[32mCJS[39m [1mdist/api/Options.cjs                [22m[32m1.46 KB[39m
+[32mCJS[39m [1mdist/api/RightOfWay.cjs             [22m[32m777.00 B[39m
+[32mCJS[39m [1mdist/api/index.cjs                  [22m[32m2.30 KB[39m
+[32mCJS[39m [1mdist/index.cjs                      [22m[32m7.48 KB[39m
+[32mCJS[39m [1mdist/ui/index.cjs                   [22m[32m1.69 KB[39m
+[32mCJS[39m [1mdist/ui/Table.cjs                   [22m[32m761.00 B[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mESM[39m [1mdist/api/CapitalImprovementPlan.js [22m[32m0 B[39m
+[32mESM[39m [1mdist/api/RightOfWay.js             [22m[32m0 B[39m
+[32mESM[39m [1mdist/ui/Table.js                   [22m[32m0 B[39m
+[32mESM[39m [1mdist/ui/index.js                   [22m[32m580.00 B[39m
+[32mESM[39m [1mdist/api/Core.js                   [22m[32m2.68 KB[39m
+[32mESM[39m [1mdist/api/Options.js                [22m[32m303.00 B[39m
+[32mESM[39m [1mdist/api/index.js                  [22m[32m972.00 B[39m
+[32mESM[39m [1mdist/index.js                      [22m[32m1.46 KB[39m
+[32mESM[39m [1mdist/api/OneOffice.js              [22m[32m579.00 B[39m
+[32mESM[39m [1mdist/chunk-5IWKICAT.js             [22m[32m4.99 KB[39m
+[32mESM[39m ⚡️ Build success in 36ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 5511ms
+[32mDTS[39m [1mdist/api/CapitalImprovementPlan.d.ts [22m[32m1.75 KB[39m
+[32mDTS[39m [1mdist/api/OneOffice.d.ts              [22m[32m36.84 KB[39m
+[32mDTS[39m [1mdist/api/RightOfWay.d.ts             [22m[32m2.22 KB[39m
+[32mDTS[39m [1mdist/ui/Table.d.ts                   [22m[32m131.00 B[39m
+[32mDTS[39m [1mdist/index.d.ts                      [22m[32m9.37 KB[39m
+[32mDTS[39m [1mdist/api/Options.d.ts                [22m[32m290.00 B[39m
+[32mDTS[39m [1mdist/ui/index.d.ts                   [22m[32m904.00 B[39m
+[32mDTS[39m [1mdist/api/Core.d.ts                   [22m[32m716.00 B[39m
+[32mDTS[39m [1mdist/api/index.d.ts                  [22m[32m871.00 B[39m
+[32mDTS[39m [1mdist/index-521bacfb.d.ts             [22m[32m29.91 KB[39m

@@ -1,0 +1,36 @@
+{
+  "name": "types",
+  "version": "2.4.0-alpha.0",
+  "author": "Kalven Schraut <kalvens@rtvision.com>",
+  "contributors": [
+    "Jeff Fox <jefff@rtvision.com>",
+    "Kevin Trettel <kevint@rtvision.com>",
+    "Matt Adams <matta@rtvision.com>"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/* --dts --format esm --clean && pnpm tsc-alias",
+    "clean": "rm -rf dist/*"
+  },
+  "devDependencies": {
+    "tsc-alias": "1.8.6",
+    "tslib": "^2.5.0",
+    "tsup": "^6.7.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm-registry.rtvision.com"
+  }
+}

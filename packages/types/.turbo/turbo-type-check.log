@@ -1,0 +1,4 @@
+
+> @rtvision/types@2.0.0-beta.6 type-check /home/kalvens/rtvision-app/mono/packages/types
+> tsc --noEmit -p ./tsconfig.build.json
+
