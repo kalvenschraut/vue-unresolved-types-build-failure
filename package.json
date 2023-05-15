@@ -1,9 +1,15 @@
 {
-  "name": "volar-declarations-sourcemap",
+  "name": "vue-unresolved-types-build-failure",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
+  "scripts": {
+    "build": "FORCE_COLOR=1 turbo run build"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.9.5"
+  }
 }
