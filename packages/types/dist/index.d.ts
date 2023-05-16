@@ -1,1 +1,1 @@
-export { Color } from './Styling.js';
+export { Color, foo } from './Styling.js';
